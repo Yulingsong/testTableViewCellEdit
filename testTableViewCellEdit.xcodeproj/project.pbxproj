@@ -15,6 +15,7 @@
 		18A738EC1C3F8C1D00F8A059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A738EA1C3F8C1D00F8A059 /* LaunchScreen.storyboard */; };
 		18A738F71C3F8C1E00F8A059 /* testTableViewCellEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A738F61C3F8C1E00F8A059 /* testTableViewCellEditTests.m */; };
 		18A739021C3F8C1E00F8A059 /* testTableViewCellEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A739011C3F8C1E00F8A059 /* testTableViewCellEditUITests.m */; };
+		18A739111C3F8CA400F8A059 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A739101C3F8CA400F8A059 /* TestTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18A738FD1C3F8C1E00F8A059 /* testTableViewCellEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTableViewCellEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A739011C3F8C1E00F8A059 /* testTableViewCellEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewCellEditUITests.m; sourceTree = "<group>"; };
 		18A739031C3F8C1E00F8A059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A7390F1C3F8CA400F8A059 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		18A739101C3F8CA400F8A059 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18A738E01C3F8C1D00F8A059 /* AppDelegate.m */,
 				18A738E21C3F8C1D00F8A059 /* ViewController.h */,
 				18A738E31C3F8C1D00F8A059 /* ViewController.m */,
+				18A7390F1C3F8CA400F8A059 /* TestTableViewCell.h */,
+				18A739101C3F8CA400F8A059 /* TestTableViewCell.m */,
 				18A738E51C3F8C1D00F8A059 /* Main.storyboard */,
 				18A738E81C3F8C1D00F8A059 /* Assets.xcassets */,
 				18A738EA1C3F8C1D00F8A059 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A738E41C3F8C1D00F8A059 /* ViewController.m in Sources */,
+				18A739111C3F8CA400F8A059 /* TestTableViewCell.m in Sources */,
 				18A738E11C3F8C1D00F8A059 /* AppDelegate.m in Sources */,
 				18A738DE1C3F8C1D00F8A059 /* main.m in Sources */,
 			);

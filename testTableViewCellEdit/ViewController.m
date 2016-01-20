@@ -73,28 +73,6 @@
     [cell.m_back setBackgroundColor:[UIColor lightGrayColor]];
     [cell.m_back.layer setCornerRadius:5];
     
-    UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(20, 0, 333, 128)];
-    [cell addSubview:scrollView];
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    button.frame = CGRectMake(333, 0, 100, 128);
-    button.backgroundColor = [UIColor redColor];
-    button.titleLabel.text = @"撤单";
-    [scrollView addSubview:button];
-    
-    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width + button.frame.size.width, 0);
-    scrollView.scrollEnabled = YES;
-    scrollView.delegate = self;
-
-    UIPageControl *pageControl = [UIPageControl new];
-
-    [cell addSubview:pageControl];
-
-    
-    
-    
-    
-    
-    
     [cell.m_button setHidden:NO];
     [cell.m_button setFrame:CGRectMake(30, 0, 40, 50)];
     [cell.m_button setBackgroundColor:[UIColor cyanColor]];
@@ -160,11 +138,6 @@
     pageControl.currentPage = index;
 }
 
-- (void)tableView:(UITableView *)tableView willBeginEditingRowAtIndexPath:(NSIndexPath*)indexPath
 
-{
-    NSString *identifier = [NSString stringWithFormat:@"identifier:%d",(int)indexPath.row];
-    TestTableViewCell *cell = (TestTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];    
-}
 
 @end
